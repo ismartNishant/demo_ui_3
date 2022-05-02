@@ -9,3 +9,34 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.main-container{
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.col-md-5 img{
+ height: 17rem;
+ object-fit: cover;
+}
+@media (max-width:1200px) {
+  .main-container{
+    width: 100%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width:600px) {
+  .main-container{
+    border: none !important;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media (max-width:400px) {
+  .main-container{
+    top: 56%;
+  }
+}
