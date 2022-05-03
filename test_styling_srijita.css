@@ -5,10 +5,14 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
-
   a{
     text-decoration: none;
     font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+  }
+  a:hover{
+    color: white;
   }
   h2{
     font-size: 1.5rem;
@@ -20,6 +24,13 @@
   h1,h2,h3{
     overflow: hidden;
   }
+  .col-1{
+    background: limegreen;
+    border-radius: 5px;
+  }
+  .col-1:hover{
+    background: gold;
+  }
   .questions h2{
     font-size: 1rem;
     color: sienna;
@@ -30,6 +41,7 @@
       padding-top: 4rem;
       padding-bottom: 4rem;
       border-radius: 10px;
+      border: 1px solid rgba(16,16,16,0.3);
   }
   .offcanvas-title::after{
     content: "";
@@ -51,6 +63,10 @@
   }
   .head{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-bottom: 1px solid rgba(16,16,16,0.3);
+  }
+  .offcanvas-body .row{
+    margin-bottom: 0.5rem;
   }
   .formset{
     padding-left: 0rem;
@@ -58,12 +74,6 @@
   button h3{
     font-size: 1rem;
     margin-bottom: 0rem;
-  }
-  i{
-    color: green;
-  }
-  a:hover .questions h2{
-    color: teal;
   }
   @media (max-width:1200px){
     .banner img{
