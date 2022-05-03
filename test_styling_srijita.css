@@ -37,9 +37,11 @@
   }
   .question_part{
     margin: 5rem 7rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
     box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
-      padding-top: 4rem;
-      padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
       border-radius: 10px;
       border: 1px solid rgba(16,16,16,0.3);
   }
@@ -64,6 +66,11 @@
   .head{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-bottom: 1px solid rgba(16,16,16,0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background: white;
   }
   .offcanvas-body .row{
     margin-bottom: 0.5rem;
@@ -102,6 +109,8 @@
       margin: 3.5rem;
       padding-right: 1rem;
       padding-left: 1rem;
+      margin-top: 6rem;
+      margin-bottom: 2rem;
     }
     h2{
       font-size: 1.2rem;
@@ -135,15 +144,16 @@
   }
   .question_part {
     margin: 1.5rem;
+    margin-top: 6rem;
   }
   h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .banner img {
     height: 150px;
   }
   .formset{
-    font-size: 0.85rem;
+    font-size: 0.7rem;
   }
   .mark h3{
      
