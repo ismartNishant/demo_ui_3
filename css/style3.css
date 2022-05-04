@@ -1,0 +1,11 @@
+.media-icons i{
+    font-size: 5rem;
+}
+
+@media (max-width:1024px){
+    .flex-row,
+    .four-cards{
+        flex-wrap: wrap;
+    }
+
+  }
