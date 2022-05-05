@@ -9,6 +9,10 @@
 }
 .pics img{
   height: 40px;
+  transition: all .5s ease-in-out;
+}
+.pics img:hover{
+  transform: scale(1.3);
 }
 .testimonial{
 background: #ffff70;
