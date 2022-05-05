@@ -2,6 +2,7 @@
   font-size: 5rem;
 }
 .icon{
+<<<<<<< HEAD
   font-size: 3rem;
 }
 .detail{
@@ -73,12 +74,46 @@ background: papayawhip;
    font-size: 5rem;
  }
 
+=======
+    font-size: 3rem;
+}
+.detail{
+    font-size: 0.9rem;
+}
+.pics img{
+    height: 70px;
+}
+.testimonial{
+  background: #ffff70;
+  color: darkgoldenrod;
+    text-align: center;
+}
+.testimonial p{
+  font-size: 0.9rem;
+}
+.testimonial h5{
+  font-size: 1.1rem;
+}
+.invite{
+  background: midnightblue;
+    color: papayawhip;
+    text-align: center;
+    padding: 4.5rem;
+}
+.invite a{
+  background: papayawhip;
+    padding: 0.5rem 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+>>>>>>> af12ff201da832faf6125f606ff347b473dfb7cc
 @media (max-width:1024px){
   .flex-row,
   .four-cards{
       flex-wrap: wrap;
   }
 
+<<<<<<< HEAD
 }
 @media (max-width:992px){
   .testimonial:first-child{
@@ -126,3 +161,54 @@ background: papayawhip;
   }
   
 }
+=======
+  }
+  @media (max-width:992px){
+    .testimonial:first-child{
+      margin-bottom: 1.5rem;
+    }
+    .testimonial:nth-child(2){
+      margin-bottom: 1.5rem;
+    }
+    .listing{
+      margin-right: 1.5rem!important;
+    margin-left: 1.5rem!important;
+
+    }
+  }
+  @media (max-width:604px){
+    .invite{
+      padding: 4rem;
+    }
+  }
+  @media (max-width:577px){
+    .cards_detail{
+          width: 80%;
+      }
+      .cards_detail:first-child{
+          margin-bottom: 1.5rem;
+      }
+      .cards_detail:nth-child(2){
+        margin-bottom: 1.5rem;
+      }
+      .cards_detail:nth-child(3){
+        margin-bottom: 1.5rem;
+      }
+    .card_style{
+        margin: 1rem 3rem;
+        width: 80%;
+    }
+    .testimonial{
+      width: 80%;
+    }
+    .testimonial:nth-child(3){
+      margin-bottom: 1.5rem;
+    }
+    .invite{
+      width: 80%;
+    }
+    .invite:first-child{
+      margin-bottom: 1.5rem;
+    }
+  }
+>>>>>>> af12ff201da832faf6125f606ff347b473dfb7cc
