@@ -69,7 +69,6 @@ background: papayawhip;
    {
      transform: scale(1.1);
    }
-  
  .img-card-2 .card-2 div{
    background: rgba(8, 0, 0, 0.312);
  }
@@ -142,13 +141,11 @@ background: papayawhip;
     width: 30%;
   }
 }
-
 @media (max-width:1024px){
   .flex-row,
   .four-cards{
       flex-wrap: wrap;
   }
-
 }
 @media (max-width:992px){
   .testimonial:first-child{
