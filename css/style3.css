@@ -61,13 +61,19 @@ background: papayawhip;
  .img-card-4 .card-4
    {
      transition: all .5s ease-in-out;
-   width: 14rem;
+     width: 14rem;
  }
  .img-card-1 .card-1:hover,
- .img-card-2 .card-2:hover,
- .img-card-3 .card-3:hover
+ .img-card-2 .card-2:hover
    {
      transform: scale(1.1);
+   }
+   .card-3 .text-center{
+     width: 100%;
+     background: rgba(0, 0, 0, 0.326);
+   }
+   .card-3:hover  img{
+     transform: scale(1.2);
    }
  .img-card-2 .card-2 div{
    background: rgba(8, 0, 0, 0.312);
