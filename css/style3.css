@@ -121,6 +121,9 @@ background: papayawhip;
     float: right;
     margin-right: 1rem;
 }
+.fruits:hover{
+  color: white;
+}
 @media (max-width:1311px){
   .flower img{
     height: 26rem;
