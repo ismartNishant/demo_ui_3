@@ -132,7 +132,42 @@ background: papayawhip;
 .like:hover , .dislike:hover{
   color: blue;
 }
-
+.sound, .next_one, .main{
+  transform: scale(1);
+  transition: all 0.2s;
+}
+.play_it, .pre_next, .music_opt{
+  color: dimgray;
+  transition: all 0.2s;
+}
+.effect{
+  color: dimgray;
+  transition: all 0.2s;
+}
+.play_it:hover, .effect:hover{
+  color: limegreen;
+}
+.song_album a, .share_album a{
+  text-decoration: none; color: black;
+  transition: all 0.2s;
+}
+.song_album a:hover, .share_album a:hover{
+  color: limegreen;
+}
+.play_song{
+  cursor: pointer;
+  transform: scale(1);
+  font-size: 3rem;
+  color: black;
+  transition: all 0.2s;
+}
+.play_song:hover{
+  transform: scale(1.1);
+  color: slategray;
+}
+.sound:hover, .main:hover, .next_one:hover{
+  transform: scale(1.1);
+}
 .love:hover{
   color: red;
 }
@@ -168,9 +203,16 @@ background: papayawhip;
   -webkit-align-items: center;
   align-items: center;
 }
+
+.logo{
+  height: 200px;
+}
 .link1{
   width: 40%;
   transition: all 0.5s ease-in-out;
+}
+.img_holder img{
+  height: 150px;
 }
 .link1:hover{
   border-radius: 20px;
@@ -225,6 +267,20 @@ background: papayawhip;
   color: white;
   transform: translateY(10px);
 }
+.play_it{
+  font-size: 6rem;
+          color: dimgrey; text-align: center;
+}
+.price{
+  text-decoration: none;
+            border: 1px solid deepskyblue;
+            color: deepskyblue;
+            transition: all 0.5s;
+}
+.price:hover{
+  background: deepskyblue;
+  color: white;
+}
 @media (max-width:1485px){
   .wanda_card2{
     left: 15%;
@@ -233,6 +289,9 @@ background: papayawhip;
   .video_detail{
     left: 32%;
     top: 40%;
+  }
+  .song_card{
+    width: 30%;
   }
 }
 @media (max-width:1311px){
@@ -259,6 +318,12 @@ background: papayawhip;
     left: 30%;
     top: 40%;
 }
+.song_card {
+  width: 35%;
+}
+.song_strip{
+  width: 50%;
+}
 }
 @media (max-width:1140px){
   .girl_card{
@@ -267,6 +332,9 @@ background: papayawhip;
   .round_play{
     left: 43%;
     top: 35%;
+  }
+  .music_card{
+    width: 95%;
   }
 }
 @media (max-width:1117px){
@@ -308,6 +376,15 @@ background: papayawhip;
 .wanda_card2 {
   left: 22%;
   top: 38%;
+}
+.music_card {
+  width: 96%;
+}
+.song_card {
+  width: 45%;
+}
+.song_strip {
+  width: 65%;
 }
 }
 @media (max-width:992px){
@@ -358,6 +435,15 @@ background: papayawhip;
   left: 21%;
   top: 40%;
 }
+.logo{
+  height: 180px;
+}
+.play_it{
+  font-size: 4rem;
+}
+.options{
+  margin-top: 1rem;
+}
 }
 @media (max-width:825px){
   .girl_card{
@@ -370,6 +456,15 @@ background: papayawhip;
 .video_detail {
   left: 18%;
   top: 40%;
+}
+.options{
+  margin-top: 1rem;
+}
+.song_card {
+  width: 55%;
+}
+.song_strip {
+  width: 75%;
 }
 }
 @media (max-width:730px){
@@ -408,12 +503,37 @@ background: papayawhip;
 .video_on{
   width: 50%;
 }
+.logo_holder{
+  width: 90%;
+}
+.music_card{
+  width: 75%;
+  padding-top: 1.5rem!important;
+    padding-bottom: 1.5rem!important;
+}
+.logo{
+  height: auto;
+    width: 100%;
+}
+.song_info{
+  width: 95%;
+  margin-top: 1.5rem;
+}
 }
 @media (max-width:658px){
   .video_detail{
     left: 16%;
   top: 40%;
   }
+  .music_card{
+    width: 80%;
+  }
+  .song_card {
+    width: 65%;
+}
+.song_strip {
+  width: 85%;
+}
 }
 @media (max-width:604px){
   .invite{
@@ -436,6 +556,9 @@ background: papayawhip;
 .video_detail {
   left: 14%;
   top: 40%;
+}
+.song_info{
+  width: 100%;
 }
 }
 @media (max-width:577px){
@@ -516,11 +639,23 @@ background: papayawhip;
 .video_on {
   width: 60%;
 }
+.music_card{
+  width: 90%;
+}
+.song_card {
+  width: 80%;
+}
+.song_strip {
+  width: 95%;
+}
 }
 @media (max-width:525px){
   .video_detail {
     left: 13%;
     top: 40%;
+}
+.price{
+  padding: 0.25rem 0.5rem!important;
 }
 }
 @media (max-width:482px){
@@ -578,6 +713,32 @@ background: papayawhip;
 .video_on {
   width: 80%;
 }
+.price{
+  font-size: 0.8rem;
+}
+.play_it {
+  font-size: 3rem;
+}
+.song_card {
+  width: 90%;
+}
+.img_holder{
+  width: 100%;
+}
+.img_holder img{
+  height: auto;
+    width: 100%;
+}
+.track_info{
+  width: 100%;
+    margin-top: 1.5rem;
+}
+.progress_bar{
+  justify-content: space-evenly!important;
+}
+.track_name{
+  text-align: center;
+}
 }
 @media (max-width:400px){
   .wanda_card2 {
@@ -596,5 +757,46 @@ background: papayawhip;
 }
 .video_on {
   width: 100%;
+}
+.play_it{
+  width: 30%;
+
+}
+.song_name{
+  width: 60%;
+}
+.price_tag{
+  flex-direction: row!important;
+    justify-content: space-around;
+    width: 80%;
+    margin-top: 1rem;
+}
+.price:first-child{
+  margin-bottom: 0rem!important;
+}
+.options{
+  margin-top: 1.5rem;
+}
+.pre_next{
+  width: 30%;
+}
+.progress_holder{
+  width: 60%;
+}
+.music_opt{
+  width: 80%;
+    margin-top: 1rem;
+}
+.song_album{
+  width: 55%;
+}
+.play_song{
+  font-size: 2.1rem;
+}
+.progress_bar1{
+  width: 40%;
+}
+.timing{
+  width: 32%;
 }
 }
