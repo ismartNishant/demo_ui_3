@@ -181,11 +181,27 @@ background: papayawhip;
   height: 250px;
     width: 100%;
 }
+.card-holder{
+  height: 500px;
+}
 .swiper {
   width: 100%;
   height: 100%;
 }
-
+.marvel_cards{
+  width: 100%;
+    height: 550px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: all 0.2s;
+}
+.marvel_container{
+  overflow: hidden;
+  position: relative;
+}
+.marvel_container:hover .marvel_cards{
+  transform: scale(1.1);
+}
 .swiper-slide {
   text-align: center;
   font-size: 18px;
@@ -203,7 +219,22 @@ background: papayawhip;
   -webkit-align-items: center;
   align-items: center;
 }
-
+.inside{
+  opacity: 0;
+  transition: all 0.2s;
+}
+.card-holder{
+  filter: grayscale(0);
+  background-repeat: no-repeat!important;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.2s;
+}
+.card-holder:hover{
+  filter: grayscale(1);
+}
+.card-holder:hover .inside{
+  opacity: 1;
+}
 .logo{
   height: 200px;
 }
@@ -293,6 +324,9 @@ background: papayawhip;
   .song_card{
     width: 30%;
   }
+  .card-holder{
+    height: 400px;
+  }
 }
 @media (max-width:1311px){
   .flower img{
@@ -323,6 +357,12 @@ background: papayawhip;
 }
 .song_strip{
   width: 50%;
+}
+.marvel_cards{
+  height: 500px;
+}
+.card-holder {
+  height: 380px;
 }
 }
 @media (max-width:1140px){
@@ -361,6 +401,12 @@ background: papayawhip;
   left: 28%;
   top: 40%;
 }
+.marvel_cards {
+  height: 450px;
+}
+.card-holder {
+  height: 350px;
+}
 }
 @media (max-width:1024px){
   .flex-row,
@@ -385,6 +431,12 @@ background: papayawhip;
 }
 .song_strip {
   width: 65%;
+}
+.marvel_holder{
+  width: 85%;
+}
+.card-holder {
+  height: 320px;
 }
 }
 @media (max-width:992px){
@@ -444,6 +496,12 @@ background: papayawhip;
 .options{
   margin-top: 1rem;
 }
+.marvel_holder {
+  width: 90%;
+}
+.marvel_cards {
+  height: 400px;
+}
 }
 @media (max-width:825px){
   .girl_card{
@@ -465,6 +523,9 @@ background: papayawhip;
 }
 .song_strip {
   width: 75%;
+}
+.marvel_cards {
+  height: 350px;
 }
 }
 @media (max-width:730px){
@@ -519,6 +580,15 @@ background: papayawhip;
   width: 95%;
   margin-top: 1.5rem;
 }
+.marvel_holder {
+  width: 95%;
+}
+.marvel_cards {
+  height: 300px;
+}
+.card-holder {
+  height: 300px;
+}
 }
 @media (max-width:658px){
   .video_detail{
@@ -533,6 +603,12 @@ background: papayawhip;
 }
 .song_strip {
   width: 85%;
+}
+.card-holder {
+  height: 280px;
+}
+.marvel-head{
+  font-size: 1.2rem;
 }
 }
 @media (max-width:604px){
@@ -559,6 +635,9 @@ background: papayawhip;
 }
 .song_info{
   width: 100%;
+}
+.card-holder {
+  height: 260px;
 }
 }
 @media (max-width:577px){
@@ -647,6 +726,34 @@ background: papayawhip;
 }
 .song_strip {
   width: 95%;
+}
+.marvel_holder {
+  width: 80%;
+}
+.marvel_container{
+  width: 70%;
+}
+.marvel_cards {
+  height: 600px;
+}
+.marvel_container:first-child{
+  margin-bottom: 1.5rem;
+}
+.marvel_container:nth-child(2){
+  margin-bottom: 1.5rem;
+}
+.card-holder {
+  height: 500px;
+  width: 65%;
+}
+.card-holder:first-child{
+  margin-bottom: 1rem;
+}
+.card-holder:nth-child(2){
+  margin-bottom: 1rem;
+}
+.marvel-head{
+  font-size: 1.8rem;
 }
 }
 @media (max-width:525px){
@@ -739,6 +846,15 @@ background: papayawhip;
 .track_name{
   text-align: center;
 }
+.marvel_cards {
+  height: 500px;
+}
+.marvel_holder {
+  width: 85%;
+}
+.card-holder {
+  height: 480px;
+}
 }
 @media (max-width:400px){
   .wanda_card2 {
@@ -798,5 +914,15 @@ background: papayawhip;
 }
 .timing{
   width: 32%;
+}
+.marvel_cards {
+  height: 450px;
+}
+.marvel_holder {
+  width: 90%;
+}
+.card-holder {
+  height: 450px;
+  width: 80%;
 }
 }
